@@ -1,0 +1,118 @@
+﻿/*body {
+    background-color: #d5dcde;
+}
+
+.login-container {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    position: center;
+    border: none;
+    width:200px;
+}
+
+.card-body {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    position: center;
+    border: none;
+    width: 200px;
+    right: 300%;
+}*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+body {
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    justify-content: center;
+    background: #d5dcde;
+}
+.wrapper{
+    width:600px;
+    background:#fff;
+    border-radius:5px;
+}
+.wrapper header{
+    font-size: 22px;
+    font-weight: 400;
+    padding: 20px 30px;
+    border-bottom: 1px solid #bfbfbf;
+    
+}
+.wrapper form{
+    margin: 35px 30px;
+}
+
+form .dbl-field {
+   /* display: flex;*/
+    align-items: center;
+    margin-bottom: 50px;
+    justify-content: space-between;    
+}
+/*tamanho do form input*/
+.dbl-field .field{
+    height: 60px;
+  /*  width: calc(100% / 2 - 13px);*/
+  padding:5px;
+}
+
+form .field input, form .message textarea{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0px 18px 0 48px;
+    border: 1px solid #a5a8ab;
+    border-radius:0px;
+    font-size: 16px;
+}
+
+form .messagem{
+    position: relative;   
+}
+form .messagem textarea {
+        max-width: 100%;
+        min-width: 100%;
+        min-height: 120px;
+        padding: 15px 20px 0 48px;        
+}
+
+form .field input::placeholder, 
+form .messagem textarea::placeholder{
+    color:#6d868b;
+}
+
+form .field input:focus, 
+form .messagem textarea:focus{
+    border: 2px solid #0d7083;
+}
+
+form .button-a{
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+}
+
+.button-a button{
+    font-size:18px;
+    border: none;
+    background-color:#0f7f9d;
+    padding: 10px 20px;
+    color:#fff;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #0d7083;
+   
+}
+
+.button-a span {
+    color: #05566e;
+    margin-left: 30px;
+    display:none;
+}

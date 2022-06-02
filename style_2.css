@@ -1,0 +1,209 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+body {
+   
+    width: 100%;
+    min-height: 100vh;
+    background-color: #d5dcde;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    min-height: 400px;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    padding: 40px 30px;
+}
+
+    .container .login-text {
+        color: #138bab;
+        font-weight: 500;
+        font-size: 1.1rem;
+        text-align: center;
+        margin-bottom: 20px;
+        display: block;
+        text-transform: capitalize;
+    }
+
+    .container .login-social {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+        margin-bottom: 25px;
+    }
+
+        .container .login-social a {
+            padding: 12px;
+            margin: 10px;
+            border-radius: 3px;
+            box-shadow: 0 0 5px rgba(0,0,0,.2);
+            text-decoration: none;
+            font-size: 1rem;
+            text-align: center;
+            color: #FFF;
+            transition: .3s;
+        }
+
+      
+    .container .login-email .input-group {
+        width: 100%;
+        height: 50px;
+        margin-bottom: 25px;
+    }
+
+.container .login-email .input-group input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 15px 20px;
+            font-size: 1rem;
+            border-radius: 10px;
+            background: #f1f4f5;
+            outline: none;
+            transition: .3s;
+}
+
+            .container .login-email .input-group input:focus, .container .login-email .input-group input:valid {
+                border-color: #1992a4;
+            }
+
+        .container .login-email .input-group .btn {
+            width: 40%;
+            height: 40px;
+            border: 1px solid;
+            border-radius: 22px;
+            background-color: #1992a4;
+            border: none;
+            position: center;
+            font-size: 18px;
+            color: #ffffff;
+            font-weight: 400;
+            cursor: pointer;
+            outline: none;
+            position: relative;
+        }
+           
+            
+         
+        
+        /* fazer o botao vibrar*/
+            .container .login-email .input-group .btn:hover {
+                transform: translateY(5px);
+                background: #37a7d2;
+                text-align: center;
+            }
+
+.login-register-text {
+    color: #4267B2;
+    font-weight: 400;
+}
+
+    .login-register-text a {
+        text-decoration: none;
+        color: #1992a4;
+    }
+
+@media (max-width: 430px) {
+    .container {
+    width: 300px;
+    }
+
+.container .login-social {
+     display: block;
+}
+
+ .container .login-social a {
+ display: block;
+ margin-top:0px;
+ }
+}
+
+.article5{
+    margin-left: 30px;
+    margin-top:20px;
+    padding: 25px;
+    display: flex;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*colocar uma barra aqui*/
+
+/*fotos*/
+.column {
+    float: left; 
+    width: 50%;
+    padding-top: 30px;
+    padding-left:120px;
+    
+}
+
+section {
+    width: 100%;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+
+}
+/*barra superior*/
+.topnav{
+    overflow:hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+    padding: 0px 5%;
+    /* padding-top:0;*/
+}
+nav ul {
+        
+        overflow: hidden;
+}
+
+
+
+
+.logo {
+    font-family: serif;
+    color: #096074;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;    
+}
+
+.topnav a {
+    overflow: hidden;
+    padding: 0px;
+}
+
+    
+
+
+a {
+    font-family: serif;
+    text-decoration: none;
+    font-size: 18px;
+    color: #096074;
+    position: center;
+    font-weight: 600;
+}

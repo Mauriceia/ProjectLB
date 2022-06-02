@@ -1,0 +1,112 @@
+﻿/*reviews*/
+/*barra superior*/
+
+
+body {
+    background-color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #145b7a;
+    font-size:30px;
+}
+
+section {
+   padding-block-start:20px;
+   padding-right: 40px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    padding: 0px 5%;
+}
+
+nav ul {
+    display: flex;
+    }
+
+
+
+
+/*about library*/
+.about-text {
+    width: 1100px;
+}
+
+    .about-text p:nth-child(1) {
+        color: #fff;
+        font-family: serif;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 20px;
+        word-spacing: 5px;
+    }
+
+    .about-text p:nth-child(2) {
+        color: #cdf3fc;
+        font-size: 20px;
+        font-family: serif;
+        font-weight: bold;
+        line-height: 25px;
+        font-weight: 600;
+        word-spacing: 5px;
+    }
+
+    .about-text p:nth-child(3) {
+        color: #f8edd2;
+        font-size: 20px;
+        font-family: serif;
+        font-weight: bold;
+        line-height: 25px;
+        word-spacing: 5px;
+    }
+
+    .about-text p:nth-child(4) {
+        color: #e7fce2;
+        font-size: 20px;
+        font-family: serif;
+        font-weight: bold;
+        line-height: 20px;
+        word-spacing: 5px;
+    }
+
+    .about-text p:nth-child(5) {
+        color: #fee2f7;
+        font-size: 20px;
+        font-family: serif;
+        font-weight: bold;
+        line-height: 20px;
+        word-spacing: 5px;
+    }
+.pic3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 10px;
+}
+
+.about-container {
+    width: 80%;
+    height: 330px;
+    background-color: #1f5f72;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    display: flex;
+    margin: -7% auto 20px auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}

@@ -1,0 +1,150 @@
+﻿body {
+    background-color: #d5dcde;
+}
+
+.imglogo {
+    margin: auto;
+}
+
+.innerdiv {
+    text-align: center;
+    margin: 100px;
+}
+
+
+body {
+    font-family: serif;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #0f4d72;
+    font-family: serif;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+}
+
+.roxobtn {
+    background-color: #ffffff;
+    color: #2a6076;
+    width: 95%;
+    height: 40px;
+    margin-top: 8px;
+    border-color: #1f857f;
+    font-family: serif;
+    font-size: 20px;
+}
+/*pagina add botao*/
+.btnAB {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    font-family: serif;
+    font-size: 20px;
+    color: #084361
+}
+
+.formAddBook {
+    width: 250px;
+    padding: 5px;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    height: 20px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    font-size: 20px;
+    font-family: serif;
+    font-weight: 400;
+}
+
+.input {
+    width: 200px;
+}
+
+h8 {
+    color: #2d8ea8;
+    font-family: serif;
+    font-size: 22px;
+    width: 600px;
+}
+
+
+/*table*/
+table, th, td {
+    border: 1px solid black;
+    position: static;
+    padding: 5px;
+    background: #ffff;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+    margin-top: -60px;
+}
+.search {
+    border: none;
+    width:600px;
+    height:32px;
+}
+label{
+    font-family:serif;
+    font-size:18px;
+    color:#0e406e;   
+}
+
+
+.botao {
+    background-color: #2a6076;
+    height:30px;
+    width:100px;
+    font-family: serif;
+    color: #fff;
+    border:none;
+    font-weight:400;
+    font-size:16px;
+    
+}
+
+th{
+    color:#2487b8;
+    font-family: serif;
+    font-size:20px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    padding: 0px 5%;
+}
+
+    nav ul {
+        display: flex;
+    }
+
+    a{
+        font-size:22px;
+        color:#0e406e;
+        font-weight:600;
+
+    }
+
+.logbtn {
+    background-color: #ffffff;
+    color: #2a6076;
+    width: 10%;
+    height: 40px;
+    margin-top: 40px;
+    border-color: none;
+    font-family: serif;
+    font-size: 20px;
+    left: 700px;
+    position: relative;
+   
+}
